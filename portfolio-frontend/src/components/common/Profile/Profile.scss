@@ -2,8 +2,10 @@
 
 .profile {
     margin-bottom: 14rem;
-    
+    width: 100%;
     .picture {
+        display: flex;
+        align-items: center;
         height: 12rem;
         border-radius: 9999px;
         margin: auto;
@@ -73,4 +75,5 @@
             margin-bottom: 1.25rem;
         }
     }
+    
 }

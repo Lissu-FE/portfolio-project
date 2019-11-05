@@ -6,11 +6,9 @@ import { Link } from 'react-router-dom';
 const cx = classNames.bind(styles);
 
 const Footer = () => (
-    <footer className={cx('footer')}>
-        <Link to="/" className={cx('brand')}>
-            reactportfolio
-        </Link>
-    </footer>
+    <div className={cx('footer')}>
+        
+    </div>
 );
 
 export default Footer;
