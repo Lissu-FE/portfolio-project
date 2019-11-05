@@ -10,7 +10,6 @@ const Profile = () => (
     <div className={cx('profile')}>
         <img 
             className={cx('picture')}
-            //className="h-48 rounded-full m-auto mt-20 border border-gray-200 p-1 shadow-lg hover:border-teal-200 cursor-pointer"
             src={profile}
             alt="me"
         />
