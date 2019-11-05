@@ -12,9 +12,66 @@
         border-color: #edf2f7;
         padding: 0.25rem;
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        &:hover {
+        &:hover{
             border-color: #b2f5ea;
         }
         cursor: pointer;
+    }
+
+    .github {
+        margin-top: 1.25rem;
+        display: flex;
+        justify-content: center;
+
+        .github-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #2d3748;
+            cursor: pointer;
+            &:hover{
+                color: #38b2ac;
+            }
+        }
+
+        .Instagram-link {
+            margin-left: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #2d3748;
+            cursor: pointer;
+            &:hover{
+                color: #38b2ac;
+            }
+        }
+    }
+
+    .icon-size {
+        font-size: 1.5rem;
+    }
+    .text-size {
+        font-size: 0.75rem;
+    }
+
+    .introduce {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.25rem;
+        color: #2d3748;
+        .in_en{
+            font-size: 2.25rem;
+            font-weight: 800;
+            
+        }
+        .color-text{
+            color: #38b2ac;
+        }
+        .in_co{
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+        }
     }
 }
