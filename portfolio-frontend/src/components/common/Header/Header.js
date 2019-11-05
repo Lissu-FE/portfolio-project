@@ -6,13 +6,18 @@ import { Link } from 'react-router-dom';
 const cx = classNames.bind(styles);
 
 const Header = () => (
-    <header className={cx('header')}>
-        <div className={cx('header-content')}>
-            <div className={cx('brand')}>
-                <Link to="/">reactportfolio</Link>
-            </div>
-        </div>
-    </header>
+    <nav className={cx('header')}>
+            <Link 
+            className={cx('project')} 
+            activeClass="active"
+            to="project"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+                Project
+            </Link>
+    </nav>
 );
 
 export default Header;

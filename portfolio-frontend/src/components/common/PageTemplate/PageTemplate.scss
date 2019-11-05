@@ -1,6 +1,11 @@
 @import "./src/styles/utils";
 
 .page-Template{
+
+    background-color: #e2e8f0;
+        width: 100%;
+        position: absolute;
+
     main {
         background: $oc-gray-1;
         min-height: calc(100vh - 15rem);

@@ -6,10 +6,7 @@ import Profile from 'components/common/Profile';
 const ListPage = () => {
     return (
         <PageTemplate>
-            <ListWrapper>
-                <Profile />
-                내용
-            </ListWrapper>
+            <Profile />
         </PageTemplate>
     );
 };
