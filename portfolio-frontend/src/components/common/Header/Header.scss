@@ -4,7 +4,6 @@
     display: flex;
     padding: 0.5rem;
     width: 100%;
-    justify-content: flex-end;
     color: #4a5568;
     z-index: 10;
     &:hover{
@@ -23,7 +22,6 @@
         }
 
         .project {
-            margin-left: 1rem;
             cursor: pointer;
             &:hover{
                 color: #4fd1c5;

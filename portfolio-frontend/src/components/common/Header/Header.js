@@ -7,17 +7,17 @@ const cx = classNames.bind(styles);
 
 const Header = () => (
     <nav className={cx('header')}>
-            <Link 
-            className={cx('project')} 
-            activeClass="active"
-            to="project"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}>
-                Project
-            </Link>
-    </nav>
+        <Link 
+        className={cx('project')} 
+        activeClass="active"
+        to="/"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}>
+            Lee Seul
+        </Link>
+</nav>
 );
 
 export default Header;
