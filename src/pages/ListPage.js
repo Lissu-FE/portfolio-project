@@ -2,9 +2,9 @@ import React from 'react';
 import { Element } from "react-scroll";
 import Fade from "react-reveal/Fade";
 import PageTemplate from 'components/common/PageTemplate';
-import Profile from 'components/common/Profile';
-import Project from 'components/common/Project';
-import Contact from 'components/common/Contact';
+import Profile from 'components/content/Profile';
+import Project from 'components/content/Project';
+import Contact from 'components/content/Contact';
 
 const ListPage = () => {
     return (
