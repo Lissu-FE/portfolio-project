@@ -15,15 +15,9 @@ const Contact = () => (
                         Details
                     </div>
                     <div className={cx('email')}>
-                        <span className={cx('content')}>
-                        email
-                        </span>
                         mary567@hanmail.net
                     </div>
                     <div className={cx('email')}>
-                        <span className={cx('content')}>
-                            mobile
-                        </span>
                         010-7480-0682
                     </div>
                 </div>
