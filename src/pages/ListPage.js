@@ -3,6 +3,7 @@ import { Element } from "react-scroll";
 import Fade from "react-reveal/Fade";
 import PageTemplate from 'components/common/PageTemplate';
 import Profile from 'components/content/Profile';
+import About from 'components/content/About';
 import Project from 'components/content/Project';
 import Contact from 'components/content/Contact';
 
@@ -10,6 +11,11 @@ const ListPage = () => {
     return (
         <PageTemplate>
             <Profile />
+            <Element name="project">
+                <Fade bottom>
+                    <About />
+                </Fade>
+            </Element>
             <Element name="project">
                 <Fade bottom>
                     <Project />
