@@ -39,18 +39,6 @@ const Project_A = () => (
                         <span className={cx('hash-tag')}>
                             #java
                         </span>
-                        <span className={cx('hash-tag')}>
-                            #java
-                        </span>
-                        <span className={cx('hash-tag')}>
-                            #java
-                        </span>
-                        <span className={cx('hash-tag')}>
-                            #java
-                        </span>
-                        <span className={cx('hash-tag')}>
-                            #java
-                        </span>
                     </div>
                 </div>
             </div>
