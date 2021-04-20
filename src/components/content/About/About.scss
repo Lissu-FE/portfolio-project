@@ -1,52 +1,48 @@
 @import "./src/styles/utils";
 
-.about{
-    margin-bottom: 14rem;
-    .about-me {
-        margin-top: 2.5rem;
-        font-size: 2.25rem;
-        color: #2d3748;
-        font-weight: 700;
-        margin-left: 3rem;
-        margin-bottom: 2.5rem;
+.about {
+  .about-me {
+    margin-top: 2.5rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-left: 3rem;
+    margin-bottom: 2.5rem;
+  }
+  .about-content {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2.5rem;
+    font-size: 1.25rem;
+  }
+  .stacks {
+    display: flex;
+    margin-top: 1.25rem;
+    .stack-contents {
+      width: 25%;
+      cursor: default;
+      &:hover {
+        color: #38b2ac;
+      }
+      .icon {
+        font-size: 1rem;
+        margin-right: 0.5rem;
+        color: #38b2ac;
+      }
     }
-    .about-content{
-        margin-left: 5rem;
-        margin-right: 5rem;
-        margin-top: 2.5rem;
-        color: #4a5568;
-        font-size: 1.25rem;
+  }
+  .stacks1 {
+    display: flex;
+    .stack-contents {
+      width: 25%;
+      cursor: default;
+      &:hover {
+        color: #38b2ac;
+      }
+      .icon {
+        font-size: 1rem;
+        margin-right: 0.5rem;
+        color: #38b2ac;
+      }
     }
-    .stacks{
-        display: flex;
-        margin-top: 1.25rem;
-        .stack-contents{
-            width: 25%;
-            cursor: default;
-            &:hover{
-                color: #38b2ac;
-            }
-            .icon{
-                font-size: 1rem;
-                margin-right: 0.5rem;
-                color: #38b2ac;
-            }
-        }
-    }
-    .stacks1{
-        display: flex;
-        .stack-contents{
-            width: 25%;
-            cursor: default;
-            &:hover{
-                color: #38b2ac;
-            }
-            .icon{
-                font-size: 1rem;
-                margin-right: 0.5rem;
-                color: #38b2ac;
-            }
-        }
-    }
-
+  }
 }
