@@ -19,7 +19,7 @@ const About = () => (
         성장하는 개발자입니다.
         <br />
         <br />
-        주로 활용하는 기술스택입니다.11
+        주로 활용하는 기술스택입니다.
       </p>
       <div className={cx("stacks")}>
         <div className={cx("stack-contents")}>
