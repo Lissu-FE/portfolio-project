@@ -1,0 +1,63 @@
+@import "./src/styles/utils";
+
+.project_a {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    .content {
+        max-width: 72rem;
+        border-radius: 0.25rem;
+        overflow: hidden;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        .p_outline{
+            display: flex;
+            color: #2d3748;
+            .Title {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .Title_padding {
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-left: 1.5rem;
+                    padding-right: 1.5rem;
+                    .title_style {
+                        font-weight: 700;
+                        font-size: 1.25rem;
+                        margin-bottom: 0.5rem;
+                        color: #2d3748;
+                    }
+                    .explain {
+                        color: #4a5568;
+                        font-size: 1.125rem;
+                        margin-bottom: 1.25rem;
+                        .my-role{
+                            font-weight: 700;
+                            color: #2d3748;
+                        }
+                    }
+                }
+                .tags {
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-left: 1.5rem;
+                    padding-right: 1.5rem;
+                    .hash-tag {
+                        display: inline-block;
+                        background-color: #edf2f7;
+                        border-radius: 9999px;
+                        padding-left: 0.75rem;
+                        padding-right: 0.75rem;
+                        padding-top: 0.25rem;
+                        padding-bottom: 0.25rem;
+                        font-size: 0.875rem;
+                        font-weight: 600;
+                        color: #4a5568;
+                        margin-right: 0.5rem;
+                        margin-bottom: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
