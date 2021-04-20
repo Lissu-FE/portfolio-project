@@ -29,10 +29,20 @@ const Profile = () => (
         <FontAwesomeIcon className="icon-size" icon={faInstagram} />
         <div className="text-size">Instagram</div>
       </a>
+      {/* <a
+        className={cx("Instagram-link")}
+        href="https://lissu.tistory.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <FontAwesomeIcon className="icon-size" icon={faPagelines} />
+        <div className="text-size">Tistory</div>
+      </a> */}
     </div>
     <div className={cx("introduce")}>
       <div className={cx("in_en")}>
-        Hi, I'm <span className={cx("color-text")}>Lee Seul</span>
+        Hi, I'm <span className={cx("color-text")}>Yi Seul</span>
+        <span className={cx("hello-emoji")}>👋</span>
       </div>
       <div className={cx("in_co")}>
         <span className={cx("color-text")}>개발자</span> Developer
