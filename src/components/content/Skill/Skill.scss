@@ -1,4 +1,13 @@
-@import "./src/styles/utils";
+@import './src/styles/utils';
 
 .skillWrapper {
+  .skillTitle {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding: 0 30px;
+  }
+  .skillContent {
+    margin: 30px 40px 0;
+    font-size: 1.25rem;
+  }
 }
